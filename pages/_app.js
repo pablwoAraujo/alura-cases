@@ -1,14 +1,13 @@
 import Head from "next/head";
 import GlobalStyle from '../src/theme/GlobalStyle';
-import Script from 'next/script'
 
 function MyApp({ Component, pageProps }) {
     return (
         <>
             <Head>
-                {/*<!-- Google tag (gtag.js) -->*/}
-                <Script async src="https://www.googletagmanager.com/gtag/js?id=G-88BGBPQGSK"></Script>
-                <Script
+                {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-88BGBPQGSK"></script>
+                <script
                     dangerouslySetInnerHTML={{
                         __html: `
                             window.dataLayer = window.dataLayer || [];
