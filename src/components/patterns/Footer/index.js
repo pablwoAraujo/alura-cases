@@ -1,5 +1,6 @@
 import { theme } from '../../../theme/theme';
 import { Box, Text } from '../../../theme/components';
+import Link from '../../Link';
 
 export default function Footer() {
   return (
@@ -33,7 +34,7 @@ export default function Footer() {
             color: theme.colors.neutral[400],
           }}
         >
-          &copy; {new Date().getFullYear()} DevSoutinho. Todos os direitos reservados.
+          &copy; {new Date().getFullYear()} <Link href="https://github.com/pablwoAraujo/alura-cases">Pablwo Araújo</Link>. Todos os direitos reservados.
         </Text>
       </Box>
     </Box>
