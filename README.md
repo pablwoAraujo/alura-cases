@@ -1,5 +1,5 @@
 # alura-cases
-Hotsite - [Alura Cases!](alura-cases-blond.vercel.app) (Curso de Next.js: explorando o framework)
+Hotsite - [Alura Cases!](https://alura-cases-blond.vercel.app) (Curso de Next.js: explorando o framework)
 
 ## 📋 Índice
 - [🚀 Tecnologias utilizadas](#-Tecnologias-utilizadas)
@@ -35,7 +35,7 @@ Home Page | FAQ Page
 :----------------------:|:----------------------:
 ![alt text](screenshot-homepage.png) | ![alt text](screenshot-faqpage.png)
 
-> Acesse o website: [alura-cases](alura-cases-blond.vercel.app)
+> Acesse o website: [alura-cases](https://alura-cases-blond.vercel.app)
 
 ## 📌 Créditos
   - [Curso de Next.js: explorando o framework](https://cursos.alura.com.br/course/next-js-iniciando-framework)
