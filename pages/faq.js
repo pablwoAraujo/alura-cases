@@ -23,25 +23,28 @@ export async function getStaticProps() {
   };
 }
 
-export default function FAQPage({ faq }) {
-  return (
-    <div>
-      <Head>
-        <title>FAQ - Alura Cases Campanha</title>
-      </Head>
-      <Link href="/">
-        Ir para a home 2
-      </Link>
-      <ul>
-        {faq.map(({ answer, question }) => (
-          <li key={question}>
-            <article>
-              <h2>{question}</h2>
-              <p>{answer}</p>
-            </article>
-          </li>
-        ))}
-      </ul>
-    </div>
-  )
-}
+import FAQScreen from '../src/screens/FAQScreen';
+export default FAQScreen;
+
+// export default function FAQPage({ faq }) {
+//   return (
+//     <div>
+//       <Head>
+//         <title>FAQ - Alura Cases Campanha</title>
+//       </Head>
+//       <Link href="/">
+//         Ir para a home 2
+//       </Link>
+//       <ul>
+//         {faq.map(({ answer, question }) => (
+//           <li key={question}>
+//             <article>
+//               <h2>{question}</h2>
+//               <p>{answer}</p>
+//             </article>
+//           </li>
+//         ))}
+//       </ul>
+//     </div>
+//   )
+// }
